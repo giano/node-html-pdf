@@ -5,7 +5,7 @@ path = require('path')
 assert = require('assert')
 
 try
-  phantomjs = require('phantomjs')
+  phantomjs = require('phantomjs-webfonts')
 catch err
   console.log('html-pdf: Failed to load PhantomJS module.', err)
 
@@ -103,4 +103,3 @@ module.exports = class PDF
         callback(null, data)
 
     child.stdin.write(JSON.stringify({@html, @options})+'\n', 'utf8')
-

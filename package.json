@@ -35,6 +35,7 @@
     "pdf",
     "phantom",
     "phantomjs",
+    "phantomjs-webfonts",
     "nodejs"
   ],
   "bugs": {
