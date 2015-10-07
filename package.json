@@ -24,7 +24,7 @@
     "tape": "^3.4.0"
   },
   "optionalDependencies": {
-    "phantomjs": "^1.9.16"
+    "phantomjs-webfonts": "^1.9.3"
   },
   "repository": {
     "type": "git",
